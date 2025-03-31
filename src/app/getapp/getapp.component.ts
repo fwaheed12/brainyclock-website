@@ -30,10 +30,10 @@ export class GetappComponent implements OnInit {
     localStorage.setItem('selectedLanguage', event.value);
   }
   goToGoogleplayStore(){
-    window.open("http://www.google.com")
+    window.open("https://play.google.com/store/apps/details?id=com.abzafirst.brainyclockuser")
   }
 
   goToAppleStore(){
-    window.open("http://www.facebook.com")
+    window.open("https://apps.apple.com/in/app/brainyclockuser/id1661503636")
   }
 }
